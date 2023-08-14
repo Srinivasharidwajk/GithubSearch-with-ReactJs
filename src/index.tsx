@@ -4,6 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/*
+    Bootstrap Configuration
+ */
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+/*
+    Toastify css
+ */
+import "../node_modules/react-toastify/dist/ReactToastify.css";
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
